@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_89cac90913b032cddb5f70031080ad67 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_89cac90913b032cddb5f70031080ad67" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_89cac90913b032cddb5f70031080ad67 = L.map(
+                "map_89cac90913b032cddb5f70031080ad67",
+                {
+                    center: [53.4808, -2.2426],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_739775a6ab040ef50a49e6516ad19987 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_739775a6ab040ef50a49e6516ad19987.addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var marker_cc15c62b4badfc2e4881adc94bd8579b = L.marker(
+                [53.476448, -2.242629],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_8e7f8a6fc75e0fce9ef7e419422e94c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc15c62b4badfc2e4881adc94bd8579b.setIcon(icon_8e7f8a6fc75e0fce9ef7e419422e94c6);
+        
+    
+            marker_cc15c62b4badfc2e4881adc94bd8579b.bindTooltip(
+                `<div>
+                     Landmark - £475+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b055b869b34d1f53bd982a9e2219f57e = L.marker(
+                [53.479838, -2.239695],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_584d437e668ea57344a9869c3acb8790 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b055b869b34d1f53bd982a9e2219f57e.setIcon(icon_584d437e668ea57344a9869c3acb8790);
+        
+    
+            marker_b055b869b34d1f53bd982a9e2219f57e.bindTooltip(
+                `<div>
+                     Gilbanks - £525+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_237bfe0e89a9fe22209d871cfde9a297 = L.marker(
+                [53.476228, -2.239844],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_764c8a8475d7a356b53891b88df722e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_237bfe0e89a9fe22209d871cfde9a297.setIcon(icon_764c8a8475d7a356b53891b88df722e7);
+        
+    
+            marker_237bfe0e89a9fe22209d871cfde9a297.bindTooltip(
+                `<div>
+                     Clockwise - £410+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e20ed9f57a2d65144207959055db8018 = L.marker(
+                [53.482173, -2.229709],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_daa128cd2f1f803b04a9a33070e41007 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e20ed9f57a2d65144207959055db8018.setIcon(icon_daa128cd2f1f803b04a9a33070e41007);
+        
+    
+            marker_e20ed9f57a2d65144207959055db8018.bindTooltip(
+                `<div>
+                     Huckletree - £400+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc86317ff022ade2feafe00a1aae0cd8 = L.marker(
+                [53.486379, -2.242313],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_80eebd8945c40bc58a38ac9f2f8945ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc86317ff022ade2feafe00a1aae0cd8.setIcon(icon_80eebd8945c40bc58a38ac9f2f8945ea);
+        
+    
+            marker_cc86317ff022ade2feafe00a1aae0cd8.bindTooltip(
+                `<div>
+                     X+Why - £450+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b38f06e574efdc8f8bd6bf9aef1fcea0 = L.marker(
+                [53.472381, -2.24171],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_be221189ae065ca03d49bbcb9474a419 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b38f06e574efdc8f8bd6bf9aef1fcea0.setIcon(icon_be221189ae065ca03d49bbcb9474a419);
+        
+    
+            marker_b38f06e574efdc8f8bd6bf9aef1fcea0.bindTooltip(
+                `<div>
+                     Cubo - £350+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8470327a1ab1f38331cffe5755b1f582 = L.marker(
+                [53.48477, -2.23737],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_d70fa286a9c37d8ad448c28b4ceb541f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8470327a1ab1f38331cffe5755b1f582.setIcon(icon_d70fa286a9c37d8ad448c28b4ceb541f);
+        
+    
+            marker_8470327a1ab1f38331cffe5755b1f582.bindTooltip(
+                `<div>
+                     Colony - £340+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15ae26e4e39d9a3af125897d558ba60a = L.marker(
+                [53.477047, -2.253542],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_8c065d1a27278b80cf27b71886a6a07c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_15ae26e4e39d9a3af125897d558ba60a.setIcon(icon_8c065d1a27278b80cf27b71886a6a07c);
+        
+    
+            marker_15ae26e4e39d9a3af125897d558ba60a.bindTooltip(
+                `<div>
+                     Department - Bonded Warehouse - £395+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e87afba1ed035619be52c66569ddb4cb = L.marker(
+                [53.47863, -2.252032],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_ddd2b615397f0717bf913078e9c8eda4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e87afba1ed035619be52c66569ddb4cb.setIcon(icon_ddd2b615397f0717bf913078e9c8eda4);
+        
+    
+            marker_e87afba1ed035619be52c66569ddb4cb.bindTooltip(
+                `<div>
+                     Department - XYZ Building - £385+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f7376bfa86f2b52df28816b81dae824 = L.marker(
+                [53.478126, -2.238835],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_fb8576a628654f00891ae0d1b12493a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f7376bfa86f2b52df28816b81dae824.setIcon(icon_fb8576a628654f00891ae0d1b12493a5);
+        
+    
+            marker_9f7376bfa86f2b52df28816b81dae824.bindTooltip(
+                `<div>
+                     Bruntwood Neo - £430+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_395431bc0488ff7320a77253158373c0 = L.marker(
+                [53.485183, -2.248655],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_56e022fb41041416ab416bf51b231bc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_395431bc0488ff7320a77253158373c0.setIcon(icon_56e022fb41041416ab416bf51b231bc4);
+        
+    
+            marker_395431bc0488ff7320a77253158373c0.bindTooltip(
+                `<div>
+                     Bruntwood Blackfriars House - £400+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce2b346c260ee2e5cb2dfcebca35024e = L.marker(
+                [53.469842, -2.238778],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_9803bc599440d87d4b5bac4daaba9f20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce2b346c260ee2e5cb2dfcebca35024e.setIcon(icon_9803bc599440d87d4b5bac4daaba9f20);
+        
+    
+            marker_ce2b346c260ee2e5cb2dfcebca35024e.bindTooltip(
+                `<div>
+                     Bruntwood Circle Square - £340+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57e77c4c2cf0d448bbb9e8abd823aaf9 = L.marker(
+                [53.482651, -2.248898],
+                {}
+            ).addTo(map_89cac90913b032cddb5f70031080ad67);
+        
+    
+            var icon_22220acb8617df3c43625c68140be6f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57e77c4c2cf0d448bbb9e8abd823aaf9.setIcon(icon_22220acb8617df3c43625c68140be6f6);
+        
+    
+            marker_57e77c4c2cf0d448bbb9e8abd823aaf9.bindTooltip(
+                `<div>
+                     Orega - £350+VAT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
